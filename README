@@ -222,14 +222,21 @@ FILES AND ENVIRONMENT
     The libecasoundc library now uses the environment variable "ECASOUND" to
     find the ecasound executable. If it is not set then the libarary will
     print a warning. To suppress it, simply set the ECASOUND variable: eg.
-    export ECASOUND=ecaosund
+    export ECASOUND=ecasound
 
     The ecasound library will still process ~/.ecasoundrc and other setup
     files for default values. See the library documentation.
 
 AUTHOR
-    (c) 2001 Brad Bowman <eci-perl@bereft.net> This software may be
-    distributed under the same terms as Perl itself.
+    Copyright (C) 2001, Brad Bowman <eci-perl@bereft.net>
+    
+LICENSE
+    This module is free software.  You can redistribute it and/or
+    modify it under the terms of the Artistic License 2.0.
+    
+    This program is distributed in the hope that it will be useful,
+    but without any warranty; without even the implied warranty of
+    merchantability or fitness for a particular purpose.
 
 SEE ALSO
     The Ecasound Programmer's Guide and ECI doc, ecasound, ecasound-iam
