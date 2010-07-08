@@ -4,13 +4,13 @@ $| = 1;
 WriteMakefile(
     NAME            => 'Audio::Ecasound',
     VERSION_FROM    => 'Ecasound.pm', 
-    PREREQ_PM        => {}, # e.g., Module::Name => 1.1
+    PREREQ_PM       => {}, # e.g., Module::Name => 1.1
     # next two could be from libecasoundc-config --libs --cflags
     # not for now since want it to install w/o libecasoundc-config
     LIBS            => ['-lecasoundc'], 
-    INC                => '',
-    ABSTRACT_FROM    => 'Ecasound.pm', 
-    AUTHOR            => 'Brad Bowman <eci-perl@bereft.net>', 
+    INC             => '',
+    ABSTRACT_FROM   => 'Ecasound.pm', 
+    AUTHOR          => 'Brad Bowman <eci-perl@bereft.net>', 
 	LICENSE         => 'artistic_2',
     dist            => { 
         # expand my tabs to 4
@@ -19,7 +19,7 @@ WriteMakefile(
                         -pi -e 'BEGIN{\@ARGV=keys \%{maniread()}; } \\
                                 s/\\t/    /g' \\
                     )" },
-    CONFIGURE         => 
+    CONFIGURE       => 
         sub {
             my %cfg;
             use Config;
