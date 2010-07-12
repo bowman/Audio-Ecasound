@@ -11,7 +11,7 @@ WriteMakefile(
     INC             => '',
     ABSTRACT_FROM   => 'Ecasound.pm', 
     AUTHOR          => 'Brad Bowman <eci-perl@bereft.net>', 
-	LICENSE         => 'artistic_2',
+    LICENSE         => 'artistic_2',
     dist            => { 
         # expand my tabs to 4
         PREOP => "(cd \$(DISTVNAME); \\
