@@ -4,6 +4,7 @@ name:         Audio-Ecasound
 version:      0.93
 version_from: Ecasound.pm
 installdirs:  site
+license:      artistic_2
 requires:
 
 distribution_type: module
