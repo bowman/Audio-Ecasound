@@ -1,5 +1,8 @@
 Revision history for Perl extension Audio::Ecasound.
 
+1.01  Mon Jul 12 12:18:04 EST 2010
+    - Clarify license for Debian packaging
+      (Thanks Joel Roth http://github.com/bolangi)
 0.93  Sun Jan  6 15:30:02 EST 2008
     - RT #32101: missing flush to STDOUT from Andreas Koenig
       $| is Makefile.PL and use MM's prompt instead of custom
